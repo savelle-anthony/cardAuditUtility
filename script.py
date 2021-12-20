@@ -42,7 +42,7 @@ for dir in dirList:
 # Write out to file
 
 with open('auditData.csv', 'w') as out:
-    out.write("First Name,Last Name,Employee ID,Card Number,Clearance Group\n")
+    out.write("First Name,Last Name,Employee ID,iClass Number,Clearance Group\n")
     
     for key in masterList.keys():
         info = ""
